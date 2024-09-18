@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+p {
+    color: black;
+    text-align: center;
+}
+
+button {
+    text-align: center;
+    width: 160px;
+    height: 34px;
+    border: none;
+    border-radius: 5px;
+    transition: 1s;
+    position: relative;
+    left: 285px;
+    top: 25px;
+}
+
+button:hover {
+    background-color: lime;
+    color: black;
+}
+
+/* Media Query for smaller screens */
+@media (max-width: 768px) {
+    button {
+        left: 0;  /* Center the button */
+        top: 10px;
+    }
+
+    p {
+        font-size: 16px;  /* Adjust font size */
+        padding: 10px;    /* Add padding for better readability */
+    }
+
+    .main {
+        flex-direction: column;  /* Stack the content vertically */
+        align-items: center;
+    }
+}
+
+/* Media Query for very small screens (phones) */
+@media (max-width: 480px) {
+    button {
+        width: 140px;  /* Make the button a bit smaller */
+        height: 30px;
+    }
+
+    p {
+        font-size: 14px;
+    }
+}
