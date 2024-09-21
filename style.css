@@ -24,15 +24,16 @@ p {
 
 button {
     text-align: center;
-    width: 160px;
+    width: 200px;
     height: 34px;
     border: none;
     border-radius: 5px;
-    transition: 1s;
+    transition: 0.25s;
     position: relative;
-    left: 285px;
-    top: 25px;
+    left: 303px;
+    top: 34px;
 }
+
 
 button:hover {
     background-color: lime;

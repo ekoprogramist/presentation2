@@ -4,13 +4,13 @@ function checkInput() {
     const resultElement = document.getElementById("result");
     
 
-    if (inputValue === "ვაჟა ფშაველა.") {
+    if (inputValue === "ჭაბუა ამირეჯიბი.") {
         resultElement.textContent = "სწორია";
         resultElement.style.color = "green";
         
 
         setTimeout(() => {
-            window.location.href = "/qiesten 2/second.html";
+            window.location.href = "/qiesten 8/eighth.html";
         }, 3000);
         
     } else {

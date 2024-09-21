@@ -4,13 +4,13 @@ function checkInput() {
     const resultElement = document.getElementById("result");
     
 
-    if (inputValue === "აკაკი წერეთელი.") {
+    if (inputValue === "გოდერძი ჩოხელი.") {
         resultElement.textContent = "სწორია";
         resultElement.style.color = "green";
         
 
         setTimeout(() => {
-            window.location.href = "/qiesten2/second.html";
+            window.location.href = "/qiesten 5/fifth.html";
         }, 3000);
         
     } else {

@@ -1,6 +1,4 @@
 body {
-    background-color: black;
-    color: white;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -22,7 +20,7 @@ body {
     align-items: center;
 
     border: 5px solid white;
-    box-shadow: 0px 2px 10px white;
+    box-shadow: 0px 2px 10px black;
     border-radius: 7px;
 }
 
@@ -33,6 +31,9 @@ button {
     border: none;
     border-radius: 5px;
     transition: 0.30s;
+    position: relative;
+    top: 150px;
+    right: 405px;
 }
 
 button:hover {
