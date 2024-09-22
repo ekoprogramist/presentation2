@@ -1,3 +1,10 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
 body {
     display: flex;
     justify-content: center;
@@ -66,7 +73,17 @@ button:hover {
 @media (max-width: 470px) {
     button {
         position: relative;
-        left: 340px;
+        right: 150px;
     }
 }
+
+
+@media (max-width: 480px) {
+    button {
+        position: relative;
+        right: 140px;
+    }
+}
+
+
 

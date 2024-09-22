@@ -4,7 +4,7 @@ continueButton.addEventListener('click', function() {
     const confirmAction = confirm("Are you Ready?");
     
     if (confirmAction) {
-        window.location.href = '/qiesten1/first.html';
+        window.location.href = '/qiesten 1/first.html';
     }
 
 });
