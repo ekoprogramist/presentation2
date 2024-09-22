@@ -4,14 +4,14 @@ function checkInput() {
     const resultElement = document.getElementById("result");
     
 
-    if (inputValue === "აკაკი წერეთელი.") {
+    if (inputValue === "ილია ჭავჭავაძე.") {
         resultElement.textContent = "სწორია";
         resultElement.style.color = "green";
         
 
         setTimeout(() => {
-            window.location.href = "/qiesten 3/third.html";
-        }, 3000);
+            window.location.href = "/qiesten 9/ninth.html";
+        }, 2000);
         
     } else {
 
@@ -20,8 +20,8 @@ function checkInput() {
         
 
         setTimeout(() => {
-            resultElement.textContent = "";
-        }, 3000);
+            window.location.href = "/qiesten 9/ninth.html";
+        }, 2000);
         
 
         console.log("Wrong input: ", inputValue);

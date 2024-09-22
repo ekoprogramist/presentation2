@@ -11,7 +11,7 @@ function checkInput() {
 
         setTimeout(() => {
             window.location.href = "/qiesten 3/third.html";
-        }, 3000);
+        }, 2000);
         
     } else {
 
@@ -20,8 +20,8 @@ function checkInput() {
         
 
         setTimeout(() => {
-            resultElement.textContent = "";
-        }, 3000);
+            window.location.href = "/qiesten 3/third.html";
+        }, 2000);
         
 
         console.log("Wrong input: ", inputValue);
