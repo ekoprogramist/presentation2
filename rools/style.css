@@ -82,6 +82,7 @@ button:hover {
     button {
         position: relative;
         right: 140px;
+        top: 250px;
     }
 }
 
